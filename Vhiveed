@@ -1,0 +1,30 @@
+# Required Environment Variables
+PREFIX=-
+MY_NUMBER=09165418562
+MODERATORS=08100373698,09038095157
+MONGODB_KEY=mongodb+srv://username:password@cluster.mongodb.net/database
+
+# Optional Environment Variables
+PORT=8000
+NODE_ENV=production
+GOOGLE_API_KEY=your_google_api_key_here
+SEARCH_ENGINE_KEY=your_search_engine_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+GENIUS_ACCESS_SECRET=your_genius_access_secret_here
+PIN_KEY=your_pinterest_api_key_here
+REMOVE_BG_KEY=your_remove_bg_key_here
+TRUECALLER_ID=your_truecaller_id_here
+TWITTER_BEARER_TOKEN=your_twitter_bearer_token_here
+HEROKU_API_TOKEN=your_heroku_api_token_here
+HEROKU_APP_NAME=your_heroku_app_name_here
+
+# YouTube Download Configuration (Optional)
+YOUTUBE_DELAY_BETWEEN_REQUESTS=1000
+YOUTUBE_MAX_RETRIES=3
+YOUTUBE_RETRY_DELAY=2000
+MAX_AUDIO_SIZE_MB=50
+MAX_VIDEO_SIZE_MB=50
+DOWNLOAD_TIMEOUT_SECONDS=600
+YOUTUBE_DEBUG=false
+ENABLE_USER_AGENT_ROTATION=true
+FORCE_DISABLE_YTDLP=false
